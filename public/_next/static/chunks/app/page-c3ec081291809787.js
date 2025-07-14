@@ -976,7 +976,7 @@
                     z(D(e.result, e));
         
                     let a = 1;
-                    while (!e.isSuccess && a < 1000) {
+                    while (!e.isSuccess && a < 1) {
                         a++;
                         F(a);
                         // MODIFIKASI: Melewatkan operationCount di setiap percobaan ulang
